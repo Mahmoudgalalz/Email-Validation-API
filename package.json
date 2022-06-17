@@ -1,0 +1,19 @@
+{
+  "name": "email-validation-api",
+  "version": "1.0.0",
+  "description": "API for email validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Email",
+    "Validation"
+  ],
+  "author": "Mahmoud Galal > Kro",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

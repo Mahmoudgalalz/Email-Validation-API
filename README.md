@@ -31,7 +31,7 @@ Status (500) err
 
 # API road map
 - plan to work on many API
-- build a NPM package for Auth and Blog api with a mongobd Schema
+- build a NPM package for Auth and Blog api with a mongoDB Schema
 
 # Contributing and collaborating
 - I'm looking to Contribute in backend project don't feel shy to chat with me

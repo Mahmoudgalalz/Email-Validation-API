@@ -12,7 +12,7 @@ String : Email
 
 using ***curl***
 
-    curl -d '{"email":"test@test.com"}' -H "Content-Type: application/json" -X POST 
+    curl -d '{"email":"test@test.com"}' -H "Content-Type: application/json" -X POST http://localhost:3000/isvalid
 
 **res**
 Status (200) OK

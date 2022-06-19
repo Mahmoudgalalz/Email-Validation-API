@@ -2,6 +2,7 @@
 - This API has Only POST Method
 - it's a best practice on API development with ExpressJS
 - It's can be used on any project
+- I used serverless functions to deploy it 
 # Method
 POST
 
@@ -12,7 +13,7 @@ String : Email
 
 using ***curl***
 
-    curl -d '{"email":"test@test.com"}' -H "Content-Type: application/json" -X POST http://localhost:3000/isvalid
+    curl -d '{"email":"test@test.com"}' -H "Content-Type: application/json" -X POST https://emailapi.netlify.app/.netlify/functions/api/isvalid
 
 **res**
 Status (200) OK
